@@ -125,24 +125,43 @@ The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed
 
 ## Fraud Detection Parameters and Features
 1. **Transaction Amount Anomalies**: Detects transactions that significantly deviate from a user's historical average or usual behavior.
+
 2. **Transaction Frequency**: Flags unusual spikes in the number of transactions within a short time period (e.g., multiple transactions in minutes).
+
 3. **Recipient Verification Status**: Checks whether the recipient is verified, registered recently, or flagged as suspicious.
+
 4. **Recipient Blacklist Status**: Identifies transactions to or from blacklisted UPI IDs, accounts, or merchants.
+
 5. **Device Fingerprinting**: Analyzes mismatches in the device ID, browser, or OS used for the transaction compared to prior user sessions.
+
 6. **VPN or Proxy Usage**: Flags transactions originating from masked IP addresses, indicating possible fraud attempts.
+
 7. **Geo-Location Flags**: Identifies if transactions are initiated from unusual or high-risk geolocations.
+
 8. **Behavioral Biometrics**: Monitors user interaction patterns, such as typing speed or mouse movement, for deviations from typical behavior.
+
 9. **Time Since Last Transaction with Recipient**: Evaluates if the recipient is a new contact or there has been a significant time gap since the last transaction.
+
 10. **Social Trust Score**: Scores recipients based on their relationship with the user (e.g., presence in contact list or prior transactions).
+
 11. **Account Age**: Analyzes the age of the user’s account, flagging newly created accounts performing high-risk transactions.
+
 12. **High-Risk Transaction Times**: Flags transactions occurring during non-business hours or at unusual times.
+
 13. **Past Fraudulent Behavior Flags**: Checks if the user or recipient has been flagged for prior fraudulent activity.
+
 14. **Location-Inconsistent Transactions**: Detects transactions initiated from multiple geolocations in a short time frame, indicating compromised credentials.
+
 15. **Normalized Transaction Amount**: Compares the transaction amount against normalized values for similar users or demographic profiles.
+
 16. **Transaction Context Anomalies**: Flags transactions that do not align with the user's typical spending habits (e.g., sudden large purchases).
+
 17. **Fraud Complaints Count**: Analyzes the frequency of fraud complaints linked to a UPI ID, device, or account.
+
 18. **Merchant Category Mismatch**: Checks if the merchant's behavior aligns with their declared category (e.g., high-value transactions for a low-value merchant).
+
 19. **User Daily Limit Exceeded**: Flags transactions that exceed predefined daily transaction limits.
+
 20. **Recent High-Value Transaction Flags**: Detects if the user recently performed a high-value transaction, increasing risk for subsequent fraudulent activity.
 
 ---
@@ -182,22 +201,26 @@ Purpose: Enables secure user authentication using Google accounts.
 Workflow:
 Users authenticate via Google, generating a unique user ID (UID).
 This UID is linked to the user's data in Firebase Firestore.
+
 2. Creating/Selecting UPI ID
 Purpose: Assigns a unique UPI ID to users upon first login or allows selection from existing ones.
 Details:
 First-time users are automatically assigned a UPI ID (e.g., user12345@bank).
 Existing users can select from their linked UPI IDs.
 UPI IDs are stored under the user's profile in Firestore.
+
 3. Entering Transaction Details
 Purpose: Allows users to input recipient UPI ID, transaction amount, and remarks.
 Workflow:
 Users manually enter or select the recipient's UPI ID.
 Fraud detection verification is triggered via a "Verify Fraud Status" button.
+
 4. Fraud Check (Verification Process)
 Purpose: Determines whether the recipient's UPI ID is flagged for fraud.
 Workflow:
 System checks the Firestore fraud database for the recipient UPI ID.
 If unflagged, simulated fraud detection is applied for new UPI IDs or reuses prior predictions for existing ones.
+
 5. AI Fraud Detection Call
 Purpose: Utilizes AI to analyze transaction details and predict fraud.
 Workflow:
@@ -205,16 +228,19 @@ Transaction data is sent to the AI service for fraud probability analysis.
 Based on the AI’s response:
 Fraud: User sees a warning.
 Not Fraud: Transaction proceeds.
+
 6. Transaction Execution
 Purpose: Processes verified transactions.
 Workflow:
 If deemed not fraudulent, the system processes the transaction (simulated in this demo).
 Status is recorded in the transaction history.
+
 7. Storing Transaction History
 Purpose: Maintains a record of transactions for auditing and display.
 Workflow:
 Details such as amount, recipient, timestamp, and fraud status are saved in Firestore.
 History is accessible under the user’s profile and displayed in the app's UI.
+
 8. User Interface (UI) Workflow
 Main Screen:
 Displays the "Send Money" page with inputs for transaction details and fraud verification.
