@@ -84,44 +84,51 @@ Why SafePayAI Stood Out
 
 ## Installation
 
-### Frontend Setup:
+### Setup:
 1. Clone the frontend repository:
    ```bash
-   git clone https://github.com/yourusername/fraudAI_Frontend_React.git
+   git clone https://github.com/Shabopp/FraudDetectionUsingGAN.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd fraudAI_Frontend_React
+   cd FraudDetectionUsingGAN
+
    ```
-3. Install dependencies:
+
+### Frontend Setup:
+
+1. Navigate to the Frontend directory:
+   ```bash
+   cd fraudAI_Frontend_React
+
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
-5. Open the app in your browser at [http://localhost:3000](http://localhost:3000).
+4. Open the app in your browser at [http://localhost:3000](http://localhost:3000).
 
 ### Backend Setup:
-1. Clone the backend repository:
+
+1. Navigate to the backend directory:
    ```bash
-   git clone https://github.com/yourusername/fraudAI_Backend.git
+   cd ../AI_model_server_Flask
+
    ```
-2. Navigate to the backend directory:
-   ```bash
-   cd fraudAI_Backend
-   ```
-3. Install required Python packages:
+2. Install required Python packages:
    ```bash
    pip install -r requirements.txt
    ```
-4. Ensure the trained model file `best_rf_model.pkl` is present in the directory.
-5. Start the Flask server:
+3. Ensure the trained model file `best_rf_model.pkl` is present in the directory.
+4. Start the Flask server:
    ```bash
    python app.py
    ```
-6. The API will be accessible at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
+5. The API will be accessible at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
 
 ---
 
