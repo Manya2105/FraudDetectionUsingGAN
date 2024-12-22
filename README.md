@@ -8,8 +8,8 @@ By leveraging Generative Adversarial Networks (GANs) for synthetic data generati
 
 
 # 🏆 Achievements and Recognition
-- 1st Place Winner at DigiPro NPCI Competition IIT Bombay Techfest 2024
-- SafePayAI proudly secured 1st place in the prestigious DigiPro NPCI Competition, organized by NPCI during the IIT Bombay Techfest 2024.
+- 1st Place Winner at DigiPay Pro NPCI Competition IIT Bombay Techfest 2024
+- SafePayAI proudly secured 1st place in the prestigious DigiPay Pro NPCI Competition, organized by NPCI during the IIT Bombay Techfest 2024.
 
 - Event Highlights
    - 🎯 Objective:
@@ -33,7 +33,7 @@ Why SafePayAI Stood Out
 
 ---
 
-### 🏆 DigiPro NPCI Competition Highlights
+### 🏆 DigiPay Pro NPCI Competition Highlights
 ![Award Ceremony](https://imgur.com/suSs4H5.png)
 
 
