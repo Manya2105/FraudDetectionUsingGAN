@@ -85,7 +85,7 @@ Why SafePayAI Stood Out
 ## Installation
 
 ### Setup:
-1. Clone the frontend repository:
+1. Clone the Main repository:
    ```bash
    git clone https://github.com/Shabopp/FraudDetectionUsingGAN.git
    ```
