@@ -1,3 +1,4 @@
+# 🌟SafePayAI
 SafePayAI is an advanced fraud detection and prevention application designed to safeguard digital transactions using cutting-edge artificial intelligence techniques. With seamless integration of machine learning models and user-friendly interfaces, SafePayAI offers robust solutions for real-time fraud detection and mitigation.
 
 By leveraging Generative Adversarial Networks (GANs) for synthetic data generation and Random Forest classifiers for accurate predictions, SafePayAI ensures unparalleled security and efficiency in transaction monitoring.
@@ -7,22 +8,25 @@ By leveraging Generative Adversarial Networks (GANs) for synthetic data generati
 
 
 # 🏆 Achievements and Recognition
-1st Place Winner at DigiPro NPCI Competition
-SafePayAI proudly secured 1st place in the prestigious DigiPro NPCI Competition, organized by NPCI during the IIT Bombay Techfest 2024.
+- 1st Place Winner at DigiPro NPCI Competition
+- SafePayAI proudly secured 1st place in the prestigious DigiPro NPCI Competition, organized by NPCI during the IIT Bombay Techfest 2024.
 
-Event Highlights
-🎯 Objective: Develop Generative AI or Privacy-Preserving AI solutions for:
-Synthetic Data Generation to improve fraud detection accuracy while ensuring privacy.
-Fraud Detection to address evolving fraud patterns using AI-driven insights.
-💰 Prize: ₹1,00,000 (First Place).
-📅 Key Dates:
-Registration Deadline: December 5, 2024
-Round 1 Submission: December 6, 2024
-Final Presentation: December 18, 2024
+- Event Highlights
+- 🎯 Objective: Develop Generative AI or Privacy-Preserving AI solutions for:
+- Synthetic Data Generation to improve fraud detection accuracy while ensuring privacy.
+- Fraud Detection to address evolving fraud patterns using AI-driven insights.
+  
+- 💰 Prize Pool: ₹1,00,000.
+  
+- 📅 Key Dates:
+- Registration Deadline: December 5, 2024
+- Round 1 Submission: December 6, 2024
+- Final Presentation: December 18, 2024
+  
 Why SafePayAI Stood Out
-🚀 Innovative Approach: Combined GANs and Random Forest models to achieve 95% accuracy in fraud detection.
-🌍 Real-World Applicability: Designed a scalable, future-proof fraud detection solution adaptable to payment systems like UPI.
-👩‍💻 User-Centric Design: Created a responsive UI with Google Sign-In, dashboards, and real-time alerts.
+- 🚀 Innovative Approach: Combined GANs and Random Forest models to achieve 95% accuracy in fraud detection.
+- 🌍 Real-World Applicability: Designed a scalable, future-proof fraud detection solution adaptable to payment systems like UPI.
+- 👩‍💻 User-Centric Design: Created a responsive UI with Google Sign-In, dashboards, and real-time alerts.
 
 
 ---
@@ -33,16 +37,16 @@ Why SafePayAI Stood Out
 # ⚙️ Key Features
 
 ## 🌐 Frontend Features
-🔒 User Authentication: Secure login using Google Sign-In.
-📊 Transaction Dashboard: View and analyze transaction history.
-📱 Responsive UI: Optimized for both mobile and desktop with Tailwind CSS.
-🎨 Animations: Interactive transitions powered by Framer Motion.
+- 🔒 User Authentication: Secure login using Google Sign-In.
+- 📊 Transaction Dashboard: View and analyze transaction history.
+- 📱 Responsive UI: Optimized for both mobile and desktop with Tailwind CSS.
+- 🎨 Animations: Interactive transitions powered by Framer Motion.
 
 ## 🧠 Backend Features
-🧪 AI-Powered Fraud Detection: Integrated GANs and Random Forest classifiers for fraud detection.
-⚡ Real-Time Analysis: Instant fraud predictions through APIs with pre-trained models.
-🔄 Data Augmentation: GANs generate synthetic datasets for improved model performance.
-📂 Database Integration: Firebase backend to store UPI IDs, transaction history, and analytics.
+- 🧪 AI-Powered Fraud Detection: Integrated GANs and Random Forest classifiers for fraud detection.
+- ⚡ Real-Time Analysis: Instant fraud predictions through APIs with pre-trained models.
+- 🔄 Data Augmentation: GANs generate synthetic datasets for improved model performance.
+- 📂 Database Integration: Firebase backend to store UPI IDs, transaction history, and analytics.
 ---
 
 ### **Frontend**  
