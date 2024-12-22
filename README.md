@@ -22,7 +22,7 @@ By leveraging Generative Adversarial Networks (GANs) for synthetic data generati
 - 📅 Key Dates:
   - Registration Deadline: December 5, 2024
   - Round 1 Submission: December 6, 2024
-  - Final Presentation: December 18, 2024
+  - Final Presentation at IIT bombay TechFest: December 18, 2024
   
 Why SafePayAI Stood Out
 
