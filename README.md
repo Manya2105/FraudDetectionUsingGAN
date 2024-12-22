@@ -82,7 +82,8 @@ Why SafePayAI Stood Out
 
 ---
 
-# User Interface Snapshots 
+# User Interface Snapshots
+
 ![Dashboard UI](https://imgur.com/1mgOS8m)
 
 *Our SafePay AI User Dashboard UI*
