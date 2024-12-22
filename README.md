@@ -12,18 +12,20 @@ By leveraging Generative Adversarial Networks (GANs) for synthetic data generati
 - SafePayAI proudly secured 1st place in the prestigious DigiPro NPCI Competition, organized by NPCI during the IIT Bombay Techfest 2024.
 
 - Event Highlights
-   - 🎯 Objective: Develop Generative AI or Privacy-Preserving AI solutions for:
-   - Synthetic Data Generation to improve fraud detection accuracy while ensuring privacy.
-   - Fraud Detection to address evolving fraud patterns using AI-driven insights.
+   - 🎯 Objective:
+       -  Develop Generative AI or Privacy-Preserving AI solutions for:
+       - Synthetic Data Generation to improve fraud detection accuracy while ensuring privacy.
+       - Fraud Detection to address evolving fraud patterns using AI-driven insights.
   
 - 💰 Prize Pool: ₹1,00,000.
   
 - 📅 Key Dates:
-- Registration Deadline: December 5, 2024
-- Round 1 Submission: December 6, 2024
-- Final Presentation: December 18, 2024
+  - Registration Deadline: December 5, 2024
+  - Round 1 Submission: December 6, 2024
+  - Final Presentation: December 18, 2024
   
 Why SafePayAI Stood Out
+
 - 🚀 Innovative Approach: Combined GANs and Random Forest models to achieve 95% accuracy in fraud detection.
 - 🌍 Real-World Applicability: Designed a scalable, future-proof fraud detection solution adaptable to payment systems like UPI.
 - 👩‍💻 User-Centric Design: Created a responsive UI with Google Sign-In, dashboards, and real-time alerts.
