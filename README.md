@@ -1,4 +1,4 @@
-🌟 SafePayAI
+🌟# H1 SafePayAI
 SafePayAI is an advanced fraud detection and prevention application designed to safeguard digital transactions using cutting-edge artificial intelligence techniques. With seamless integration of machine learning models and user-friendly interfaces, SafePayAI offers robust solutions for real-time fraud detection and mitigation.
 
 By leveraging Generative Adversarial Networks (GANs) for synthetic data generation and Random Forest classifiers for accurate predictions, SafePayAI ensures unparalleled security and efficiency in transaction monitoring.
