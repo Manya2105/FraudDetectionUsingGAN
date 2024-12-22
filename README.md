@@ -180,5 +180,9 @@ Open the Jupyter Notebook `FraudDetectionUsingGAN.ipynb` for training.
 1. **Data Preprocessing**: Prepare the dataset by normalizing and encoding features.
 2. **GAN Implementation**: Define and train the generator and discriminator networks.
 3. **Synthetic Data Generation**: Create augmented data using the trained GAN.
-4. **Random Forest Training**: Train the model using the augmented dataset and save the trained model as `best_rf_model.pkl`. 
+4. **Random Forest Training**: Train the model using the augmented dataset and save the trained model as `best_rf_model.pkl`.
+
+
+![Data Flow Diagram](https://raw.githubusercontent.com/Shabopp/FraudDetectionUsingGAN/main/SystemDesignDiagrams/WorkFlowDiagram.png)
+
 
