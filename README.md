@@ -4,6 +4,66 @@ SafePayAI is an advanced fraud detection and prevention application designed to 
 
 ---
 
+
+
+# Achievements and Recognition
+🏆 1st Place Winner at DigiPro NPCI Competition
+SafePayAI proudly secured 1st place in the prestigious DigiPro NPCI Competition, organized by NPCI (National Payments Corporation of India) during the IIT Bombay Techfest 2024. This competition challenged participants to solve real-world challenges in payment and financial services using Generative AI or Privacy-Preserving AI.
+
+Competition Details
+Event Name: DigiPro NPCI Competition
+Venue: IIT Bombay Techfest, 2024
+Organizer: National Payments Corporation of India (NPCI)
+Objective:
+Explore and design solutions using Generative AI or Privacy-Preserving AI for:
+Synthetic Data Generation: Creating high-quality datasets to train fraud detection models while ensuring privacy.
+Fraud Detection: Developing advanced AI models to detect and mitigate fraud effectively.
+Prize: ₹1,00,000 for the 1st place winner.
+Judged by: Industry experts from NPCI and academic leaders.
+Competition Stages
+Round 1:
+
+Task: Teams submitted an abstract and a detailed roadmap addressing the problem statement.
+Mentorship: After submission, teams received guidance during a mentoring session conducted by NPCI experts.
+Important Dates:
+Registration Deadline: December 5, 2024
+Submission Deadline: December 6, 2024
+Results Announcement: December 7, 2024
+Round 2 (Mentorship):
+
+Phase: Teams worked closely with NPCI experts to refine their solutions through mentoring sessions held between December 8–December 16, 2024.
+Focus: Deep dives into problem areas, fraud trends, and the application of Generative AI technologies.
+Final Round (Offline):
+
+Date: December 18, 2024
+Venue: IIT Bombay Campus
+Task: Finalists presented their solutions to a panel of NPCI experts and tech leaders.
+Why SafePayAI Won
+Innovative Approach:
+
+Combined Generative Adversarial Networks (GANs) for synthetic data generation with Random Forest classifiers to achieve exceptional fraud detection accuracy.
+Developed a future-proof, scalable fraud detection solution adaptable to evolving fraud tactics.
+Real-World Applicability:
+
+Focused on solving critical challenges in payment systems like UPI by detecting rare and emerging fraud schemes.
+Built an easily integrable system with APIs for seamless deployment in existing infrastructures.
+Impressive Results:
+
+Achieved 95% accuracy in real-time fraud detection.
+Demonstrated high scalability and adaptability, capable of processing high transaction volumes.
+User-Centric Design:
+
+A responsive UI with Google Sign-In, transaction dashboards, and real-time fraud alerts, prioritizing usability and transparency.
+Impact and Recognition
+SafePayAI's innovative solution was highly praised by NPCI and industry leaders for its technical sophistication, real-world impact, and scalability.
+Winning this competition validated SafePayAI’s potential to revolutionize fraud detection in payment systems, offering secure and reliable solutions to financial institutions.
+
+
+---
+
+
+
+
 ## Features
 
 ### Frontend Features:
