@@ -81,6 +81,8 @@ SafePayAI is an advanced fraud detection and prevention application designed to 
 
 ---
 
+![AI Model visual Diagram](https://raw.githubusercontent.com/Shabopp/FraudDetectionUsingGAN/main/SystemDesignDiagrams/SystemDesign.png)
+
 ## AI Model: Fraud Detection Process
 
 The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed using a combination of GAN and Random Forest models. Here’s an in-depth breakdown:
@@ -119,6 +121,7 @@ The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed
 - Integrated the workflow into a script for seamless execution.
 
 ---
+![AI Model visual Diagram](https://raw.githubusercontent.com/Shabopp/FraudDetectionUsingGAN/main/SystemDesignDiagrams/AIMODEL_VISUAL.png)
 
 ## Fraud Detection Parameters and Features
 1. **Transaction Amount Anomalies**: Detects transactions that significantly deviate from a user's historical average or usual behavior.
