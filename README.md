@@ -1,4 +1,4 @@
-🌟# H1 SafePayAI
+# 🌟SafePayAI
 SafePayAI is an advanced fraud detection and prevention application designed to safeguard digital transactions using cutting-edge artificial intelligence techniques. With seamless integration of machine learning models and user-friendly interfaces, SafePayAI offers robust solutions for real-time fraud detection and mitigation.
 
 By leveraging Generative Adversarial Networks (GANs) for synthetic data generation and Random Forest classifiers for accurate predictions, SafePayAI ensures unparalleled security and efficiency in transaction monitoring.
@@ -7,7 +7,7 @@ By leveraging Generative Adversarial Networks (GANs) for synthetic data generati
 
 
 
-🏆 Achievements and Recognition
+# 🏆 Achievements and Recognition
 1st Place Winner at DigiPro NPCI Competition
 SafePayAI proudly secured 1st place in the prestigious DigiPro NPCI Competition, organized by NPCI during the IIT Bombay Techfest 2024.
 
@@ -31,15 +31,15 @@ Why SafePayAI Stood Out
 
 
 
-⚙️ Key Features
+# ⚙️ Key Features
 
-🌐 Frontend Features
+## 🌐 Frontend Features
 🔒 User Authentication: Secure login using Google Sign-In.
 📊 Transaction Dashboard: View and analyze transaction history.
 📱 Responsive UI: Optimized for both mobile and desktop with Tailwind CSS.
 🎨 Animations: Interactive transitions powered by Framer Motion.
 
-🧠 Backend Features
+## 🧠 Backend Features
 🧪 AI-Powered Fraud Detection: Integrated GANs and Random Forest classifiers for fraud detection.
 ⚡ Real-Time Analysis: Instant fraud predictions through APIs with pre-trained models.
 🔄 Data Augmentation: GANs generate synthetic datasets for improved model performance.
@@ -109,7 +109,7 @@ Why SafePayAI Stood Out
 
 ![AI Model visual Diagram](https://raw.githubusercontent.com/Shabopp/FraudDetectionUsingGAN/main/SystemDesignDiagrams/SystemDesign.png)
 
-📈 AI Model Workflow
+# 📈 AI Model Workflow
 
 The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed using a combination of GAN and Random Forest models. Here’s an in-depth breakdown:
 
@@ -193,7 +193,7 @@ The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed
 
 ---
 
-🔗 API Endpoints
+# 🔗 API Endpoints
 
 ### Base URL: `http://127.0.0.1:5000/`
 
@@ -221,7 +221,7 @@ The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed
 
 ---
 
-🏗️ System Architecture
+# 🏗️ System Architecture
 
 1. Google Sign-In (Authentication)
 Purpose: Enables secure user authentication using Google accounts.
