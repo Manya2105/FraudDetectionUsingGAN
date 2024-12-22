@@ -175,15 +175,54 @@ The core of SafePayAI lies in its AI-driven fraud detection mechanism, developed
 
 ---
 
-## Model Training
+## System Architecture and Workflow Overview
 
-Open the Jupyter Notebook `FraudDetectionUsingGAN.ipynb` for training.
-
-### Detailed Steps:
-1. **Data Preprocessing**: Prepare the dataset by normalizing and encoding features.
-2. **GAN Implementation**: Define and train the generator and discriminator networks.
-3. **Synthetic Data Generation**: Create augmented data using the trained GAN.
-4. **Random Forest Training**: Train the model using the augmented dataset and save the trained model as `best_rf_model.pkl`.
+1. Google Sign-In (Authentication)
+Purpose: Enables secure user authentication using Google accounts.
+Workflow:
+Users authenticate via Google, generating a unique user ID (UID).
+This UID is linked to the user's data in Firebase Firestore.
+2. Creating/Selecting UPI ID
+Purpose: Assigns a unique UPI ID to users upon first login or allows selection from existing ones.
+Details:
+First-time users are automatically assigned a UPI ID (e.g., user12345@bank).
+Existing users can select from their linked UPI IDs.
+UPI IDs are stored under the user's profile in Firestore.
+3. Entering Transaction Details
+Purpose: Allows users to input recipient UPI ID, transaction amount, and remarks.
+Workflow:
+Users manually enter or select the recipient's UPI ID.
+Fraud detection verification is triggered via a "Verify Fraud Status" button.
+4. Fraud Check (Verification Process)
+Purpose: Determines whether the recipient's UPI ID is flagged for fraud.
+Workflow:
+System checks the Firestore fraud database for the recipient UPI ID.
+If unflagged, simulated fraud detection is applied for new UPI IDs or reuses prior predictions for existing ones.
+5. AI Fraud Detection Call
+Purpose: Utilizes AI to analyze transaction details and predict fraud.
+Workflow:
+Transaction data is sent to the AI service for fraud probability analysis.
+Based on the AI’s response:
+Fraud: User sees a warning.
+Not Fraud: Transaction proceeds.
+6. Transaction Execution
+Purpose: Processes verified transactions.
+Workflow:
+If deemed not fraudulent, the system processes the transaction (simulated in this demo).
+Status is recorded in the transaction history.
+7. Storing Transaction History
+Purpose: Maintains a record of transactions for auditing and display.
+Workflow:
+Details such as amount, recipient, timestamp, and fraud status are saved in Firestore.
+History is accessible under the user’s profile and displayed in the app's UI.
+8. User Interface (UI) Workflow
+Main Screen:
+Displays the "Send Money" page with inputs for transaction details and fraud verification.
+Transaction Status:
+Fraudulent transactions show warnings and are blocked.
+Verified transactions activate the "Send Money" button.
+Recent Transactions:
+Displays historical data, including recipient, amount, date, and fraud status.
 
 
 ![Data Flow Diagram](https://raw.githubusercontent.com/Shabopp/FraudDetectionUsingGAN/main/SystemDesignDiagrams/WorkFlowDiagram.png)
