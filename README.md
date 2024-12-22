@@ -33,7 +33,10 @@ Why SafePayAI Stood Out
 
 ---
 
+### 🏆 DigiPro NPCI Competition Highlights
+![Team Photo](https://imgur.com/suSs4H5))
 
+*Our team receiving the award at IIT Bombay Techfest 2024.*
 
 
 # ⚙️ Key Features
