@@ -82,6 +82,26 @@ Why SafePayAI Stood Out
 
 ---
 
+# User Interface Snapshots 
+![Dashboard UI](https://imgur.com/1mgOS8m)
+
+*Our SafePay AI User Dashboard UI*
+
+---
+
+![fraud Detection UI](https://imgur.com/4h5D08o)
+
+*Our SafePay AI Fraud Detection Warning UI*
+
+---
+
+![Recent Transcation UI](https://imgur.com/6AwLhGA))
+
+*Our SafePay Recent Transcation UI*
+
+---
+
+
 ## Installation
 
 ### Setup:
