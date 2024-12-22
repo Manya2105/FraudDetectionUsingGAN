@@ -40,6 +40,11 @@ Why SafePayAI Stood Out
 *Our team receiving the award at IIT Bombay Techfest 2024.*
 
 
+![Photo with Coordinator](https://imgur.com/KKCADYy.png)  
+*Team SafePayAI with the event coordinator at the IIT Bombay Techfest.*
+
+
+
 # ⚙️ Key Features
 
 ## 🌐 Frontend Features
