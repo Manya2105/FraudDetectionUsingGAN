@@ -45,8 +45,8 @@ const Dashboard = () => {
     }
   };
 
-  useEffect(() => {
-   
+useEffect(() => {
+  
     const checkUser = async () => {
       const currentUser = auth.currentUser;
       if (currentUser) {

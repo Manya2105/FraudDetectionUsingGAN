@@ -5149,7 +5149,7 @@ import {
       
           const result = await response.json();
       
-          if ( result.prediction[0] === 1) {
+          if (result.is_fraud === true || result.fraud_probability > 0.3) {
             setVerificationStatus("fraud");
           } else {
             setVerificationStatus("valid");
