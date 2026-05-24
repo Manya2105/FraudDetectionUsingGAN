@@ -1,0 +1,6 @@
+AI_model_server_Flask/venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+*.pkl
